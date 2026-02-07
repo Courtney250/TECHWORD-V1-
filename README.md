@@ -133,7 +133,7 @@ You will need a session ID to run the KHAN-MD. Click the button below to obtain 
 
 ---
 
-## 🔗 KHAN-MD INFO
+## 🔗 TECHWORD V1 INFO
 
 ---
 
