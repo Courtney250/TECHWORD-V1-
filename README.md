@@ -13,7 +13,7 @@
 
 --- 
 
-<a><img src='https://files.catbox.moe/juroe8.jpg'/></a>
+<a><img src='https://i.ibb.co/nswZ9WcB/upload-1770456482848-a76a1a20-jpg.jpg'/></a>
 
 ---
 
