@@ -77,14 +77,14 @@ if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
         console.log('1. Scan QR code with your bot first');
         console.log('2. Then get the session from sessions/creds.json');
         console.log('3. Convert it to base64 and add to .env file like:');
-        console.log('   SESSION_ID=TECHWORD:~YOUR_BASE64_SESSION_HERE');
+        console.log('   SESSION_ID=TECHWORLD:~YOUR_BASE64_SESSION_HERE');
         process.exit(1);
     }
     
     // Check if session ID has the expected prefix
-    if (!sessionId.includes("TECHWORD:~")) {
-        console.log('❌ Invalid session format! Session ID must start with "TECHWORD:~"');
-        console.log('   Example: SESSION_ID=TECHWORD:~eyJh...');
+    if (!sessionId.includes("TECHWORLD:~")) {
+        console.log('❌ Invalid session format! Session ID must start with "TECHWORLD:~"');
+        console.log('   Example: SESSION_ID=TECHWORLD:~eyJh...');
         process.exit(1);
     }
     
