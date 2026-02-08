@@ -88,7 +88,7 @@ if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
         process.exit(1);
     }
     
-    const sessdata = sessionId.replace("TECHWORD:~", '');
+    const sessdata = sessionId.replace("TECHWORLD:~", '');
     
     try {
         // Decode Base64 session data
